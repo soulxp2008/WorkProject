@@ -19,7 +19,7 @@ CREATE table `menu`
 `id` int(11) not Null Auto_increment,
 `name` varchar(50) DEFAULT NULL,
 `veg` bool DEFAULT NULL,
-`Price` long DEFAULT NULL,
+`price` long DEFAULT NULL,
 `kichen_id` int(11) not Null,
 PRIMARY KEY(`id`)
 )
